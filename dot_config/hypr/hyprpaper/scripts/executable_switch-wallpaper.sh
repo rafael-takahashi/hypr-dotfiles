@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WALLPAPER_DIR="$HOME/.config/hypr/hyprpaper/wallpapers"
+WALLPAPER_DIR="$HOME/Pictures/Wallpapers"
 CACHE_FILE="/tmp/wallpaper_map"
 
 refresh_cache() {
