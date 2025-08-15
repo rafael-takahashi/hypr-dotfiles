@@ -1,6 +1,7 @@
 return {
   {
     "mason-org/mason.nvim",
+    lazy = false,
     config = function()
       require("mason").setup()
     end
@@ -19,6 +20,7 @@ return {
   },
   {
     "neovim/nvim-lspconfig",
+    lazy = false,
     config = function()
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({})

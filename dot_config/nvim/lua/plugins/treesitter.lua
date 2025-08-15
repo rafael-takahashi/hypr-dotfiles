@@ -6,9 +6,7 @@ return {
   opts = {
     highlight = { enable = true },
     indent = { enable = true },
-    ensure_installed = {
-      "c", "lua", "javascript", "typescript", "cpp", "python"
-    },
+    auto_install = true,
   },
   config = function(_, opts)
     local ok, configs = pcall(require, "nvim-treesitter.configs")
