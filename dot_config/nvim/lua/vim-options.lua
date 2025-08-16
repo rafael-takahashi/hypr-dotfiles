@@ -8,6 +8,12 @@ vim.opt.number = true
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+vim.keymap.set({"n", "v"}, "<C-c>", '"+y')
+
+vim.keymap.set("n", "<C-v>", '"+p')
+vim.keymap.set("i", "<C-v>", '<C-r>+')
+vim.keymap.set("c", "<C-v>", '<C-r>+')
+
 vim.keymap.set("n", "<A-Up>", ":m .-2<CR>==", { silent = true })
 vim.keymap.set("n", "<A-Down>", ":m .+1<CR>==", { silent = true })
 
