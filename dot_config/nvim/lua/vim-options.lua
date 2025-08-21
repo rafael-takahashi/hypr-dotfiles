@@ -8,6 +8,8 @@ vim.opt.number = true
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+vim.keymap.set("n", "<C-z>", "<Nop>")
+
 vim.keymap.set({"n", "v"}, "<C-c>", '"+y')
 
 vim.keymap.set("n", "<C-v>", '"+p')
