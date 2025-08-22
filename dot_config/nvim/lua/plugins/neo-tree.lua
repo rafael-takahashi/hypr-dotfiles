@@ -9,7 +9,8 @@ return {
     },
     lazy = false,
     config = function()
-      vim.keymap.set("n", "<leader>t", ":Neotree reveal toggle left<CR>", {})
+      vim.keymap.set("n", "<leader>b", ":Neotree reveal toggle left<CR>", {})
+      vim.keymap.set("n", "<leader>t", ":Neotree focus<CR>", {})
     end,
   },
 }
