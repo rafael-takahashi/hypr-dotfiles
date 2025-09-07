@@ -36,7 +36,7 @@ configuration {
 window {
     width:                        600px;
     x-offset:                     0px;
-    y-offset:                     300px;
+    y-offset:                     200px;
     spacing:                      0px;
     padding:                      0px;
     margin:                       0px; 
