@@ -12,7 +12,7 @@
     background: rgba(0, 0, 0, 0.64);
     foreground: #e8eaed;
     selected:    rgba(200, 200, 200, 0.2);
-    font:       "JetBrainsMono Nerd Font Propo 13";
+      font:       "JetBrainsMono Nerd Font Propo 11";
 }
 
 /* ---- Configuration ---- */
@@ -34,9 +34,9 @@ configuration {
 
 /* ---- Window ---- */
 window {
-    width:                        600px;
+    width:                        35%;
     x-offset:                     0px;
-    y-offset:                     200px;
+    y-offset:                     220px;
     spacing:                      0px;
     padding:                      0px;
     margin:                       0px; 
@@ -134,7 +134,7 @@ button selected {
 listview {
     enabled:                      true;
     columns:                      1;
-    lines:                        8;
+    lines:                        7;
     cycle:                        false;
     dynamic:                      false;
     scrollbar:                    false;
