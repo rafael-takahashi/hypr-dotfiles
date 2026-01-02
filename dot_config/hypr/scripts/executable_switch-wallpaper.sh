@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WALLPAPER_DIR="$HOME/Pictures/Wallpapers"
+WALLPAPER_DIR="~/Pictures/Wallpapers/"
 CACHE_FILE="/tmp/wallpaper_map"
 
 refresh_cache() {
@@ -31,7 +31,8 @@ SELECTED=$(printf "%s\n" "${NAMES[@]}" | \
 if [ -n "$SELECTED" ]; then
     FILE="${FILE_MAP[$SELECTED]}"
     if [ -n "$FILE" ]; then
-        hyprctl hyprpaper reload ,"$FILE"
+        hyprctl hyprpaper wallpaper eDP-1,"$FILE"
+        hyprctl hyprpaper wallpaper HDMI-A-1,"$FILE"
     fi
 fi
 
