@@ -36,7 +36,7 @@ button:hover {
 }
 
 #workspaces button:hover {
-  background: rgba(150, 150, 150, 0.1); 
+  background: rgba(150, 150, 150, 0.1);
 }
 
 #workspaces button.urgent {
@@ -69,7 +69,7 @@ button:hover {
 }
 
 #tray {
-  margin-right: 7px;  
+  margin-right: 7px;
 }
 
 #mpd:hover,
@@ -84,7 +84,7 @@ button:hover {
 #battery#bat2:hover,
 #clock:hover,
 #network:hover {
-  background: rgba(150, 150, 150, 0.1); 
+  background: rgba(150, 150, 150, 0.1);
   box-shadow: inset 0 -1px #e8eaed;
 }
 

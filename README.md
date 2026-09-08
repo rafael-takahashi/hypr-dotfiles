@@ -17,6 +17,6 @@ sh -c "$(curl -fsLS get.chezmoi.io)"
 2. **Clone and apply the dotfiles**
 
 ```bash
-chezmoi init --apply git@github.com:rafael-takahashi/hypr-dotfiles.git
+chezmoi init --apply git@github.com:rafael-takahashi/dotto-files.git
 ```
-This clones the repo, deploys the configs to your home directory, and runs any run_once scripts (e.g., symlinks your scripts to ~/.local/bin).
+This clones the repo, deploys the configs to your home directory, and runs the setup scripts (e.g., symlinks your scripts to ~/.local/bin).
