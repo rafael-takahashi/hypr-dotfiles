@@ -87,6 +87,14 @@ hl.env("HYPRCURSOR_THEME", "rose-pine-hyprcursor")
 
 hl.env("HYPRCURSOR_SIZE", 32)
 
+hl.env("GTK_IM_MODULE", "fcitx")
+
+hl.env("QT_IM_MODULE", "fcitx")
+
+hl.env("XMODIFIERS", "@im=fcitx")
+
+hl.env("SDL_IM_MODULE", "fcitx")
+
 --##################
 
 --## PERMISSIONS ###
@@ -474,6 +482,7 @@ hl.config({
 -- Autostart
 hl.on("hyprland.start", function()
     hl.exec_cmd("nm-applet --indicator")
+    hl.exec_cmd("fcitx5 -d")
     hl.exec_cmd("hyprpaper")
     hl.exec_cmd("waybar")
     hl.exec_cmd("hyprsunset")
